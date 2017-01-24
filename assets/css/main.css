@@ -2,12 +2,40 @@
 body {
   background-color: #5a5b5b
 }
+
+
+
+/* nav {
+  background-color: #8ee28a;
+  height: auto;
+  width: 70%;
+  border-radius: 10px;
+  padding: 0px 20px 0px 20px;
+  margin: auto;
+  text-align: center;
+} */
+
+#nav-bar {
+  background-color: #af7b7b;
+  min-height: 25px;
+  width: 70%;
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+}
+
 div {
   padding: 2px;
-  margin: 10px;
+  margin: auto;
 }
+
+a {
+  font-size: 1.5em;
+  color: #000000;
+  text-decoration: none;
+}
+
 img {
-  height: 22%;
   width: 22%;
   border-radius: 50%;
   border: 1px dashed #8ee28a;
@@ -48,11 +76,9 @@ p {
 .content-box {
     background-color: #8ee28a;
     height: auto;
-    width: 60%;
+    width: 70%;
     border-bottom: 3px solid black;
     border-radius: 10px;
-    padding : 2px;
-    margin: auto;
 }
 
 .spacer {
@@ -64,4 +90,13 @@ p {
 .not-so-hidden {
   background-color: #FF0000;
   border: 2px dashed #eeff3d;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
 }
