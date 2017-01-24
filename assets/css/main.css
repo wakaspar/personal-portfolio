@@ -58,8 +58,9 @@ p {
   }
 
 .nav-a {
+  font-family: Arial, sans-serif;
   font-size: 1.5em;
-  padding: 0px 10px 0px 10px;
+  padding-right: 20px;
   text-decoration: none;
 }
 
