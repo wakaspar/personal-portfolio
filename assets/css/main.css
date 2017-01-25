@@ -3,45 +3,47 @@ body {
   background-color: #5a5b5b
 }
 
-#nav-bar {
+nav {
   background-color: #af7b7b;
   min-height: 25px;
   width: 70%;
-  border-radius: 10px;
+  border-radius: 15px;
   margin: auto;
   text-align: center;
 }
 
+nav  a {
+  color: #6d1111;
+  font-family: Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: 550;
+  padding-right: 25px;
+  text-decoration: none;
+}
+
 div {
-  padding: 10px;
-  margin: auto;
+  padding: 1px 10px;
+  margin: 15px auto;
 }
 
 a {
-  color: #000000;
+  color: #521a77;
 }
-
-img {
-  width: 150px;
-  border-radius: 50%;
-  border: 1px dashed #8ee28a;
-  margin: auto;
-  }
 
 h1 {
     font-family:  Verdana, sans-serif;
     color: #4286f4;
     text-align: center;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 2px #282828;
   }
 
 h2 {
     font-family: Verdana, sans-serif;
     color: #000000;
-    border-bottom: 1px dashed #000000;
+    border-bottom: 1px dotted #000000;
   }
 
-  h3 {
+h3 {
     color: #FFFFFF;
   }
 
@@ -50,29 +52,12 @@ p {
     margin: 2px;
   }
 
-  footer {
+footer {
     font-size: .75em;
     font-family: Verdana, sans-serif;
     color: #000000;
     text-align: center;
   }
-
-.nav-a {
-  font-family: Arial, sans-serif;
-  font-size: 1.5em;
-  padding-right: 20px;
-  text-decoration: none;
-}
-
-#hidden-text {
-  color: #FFFFFF;
-}
-
-#hidden-box {
-  background-color: #FF0000;
-  opacity: 0;
-  border: 2px dashed #eeff3d;
-}
 
 .content-box {
     background-color: #8ee28a;
@@ -80,12 +65,6 @@ p {
     width: 70%;
     border-bottom: 3px solid black;
     border-radius: 10px;
-}
-
-.spacer {
-  height: auto;
-  width: auto;
-  opacity: 0;
 }
 
 .not-so-hidden {
@@ -100,4 +79,28 @@ p {
   content: " ";
   clear: both;
   height: 0;
+}
+
+img#my-pic {
+  width: 150px;
+  border-radius: 50%;
+  border: 1px dashed #8ee28a;
+}
+
+img#indigo-pic {
+  width: 250px;
+  border-radius: 50%;
+  border: 1px dashed #8ee28a;
+  display: block;
+  margin: auto;
+}
+
+#hidden-text {
+    color: #FFFFFF;
+}
+
+#hidden-box {
+    background-color: #FF0000;
+    opacity: 0;
+    border: 2px dashed #eeff3d;
 }
