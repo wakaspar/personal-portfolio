@@ -72,7 +72,7 @@ var data = [
   },
   {
     "name":"GA Memory Game",
-    "pic":"<img src='assets/imgs/memorygame.png'>",
+    "pic":"<img src='assets/imgs/js.jpg'>",
     "description":"GA Fundamentals Memory Game; Jan.2017",
     "link":"<a href='https://github.com/wakaspar/wdi-fundamentals-memorygame/tree/master/starter-code'>link</a>"
   },
