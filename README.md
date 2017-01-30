@@ -19,11 +19,11 @@ Personal use.
 I began this portfolio in late January, 2017.  It will be continually updated.
 
 ## Credits
-Me
-Nathan
-Michelle
-Sherri
-The rest of WDI-35
+Me,
+Nathan,
+Michelle,
+Sherri, &
+The rest of WDI-35.
 
 ## License
 TODO: Write license

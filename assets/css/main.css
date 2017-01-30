@@ -21,6 +21,11 @@ li {
   font-weight: bold;
 }
 
+li img {
+  height: 35px;
+  margin: 10px;
+}
+
 a {
   font-weight: normal;
   color: lightgreen;
@@ -47,19 +52,12 @@ h2, h4, p {
   color: #000000;
 }
 
-.me {
-  width: 75px;
-}
-
 #top-bar {
   display: inline;
 }
 
-#first-panel, #second-panel {
-  background: url('swirl_pattern.png');
-  background-position: center;
-  border-radius: 25px;
-  max-width: auto;
+.me {
+  width: 75px;
 }
 
 .jumbotron {

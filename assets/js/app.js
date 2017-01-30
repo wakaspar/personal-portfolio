@@ -21,7 +21,7 @@ var changeToWebDev = function(){
 
   for (var i=0; i<data.length; i++){
     var project = data[i];
-    var item = ("<li>"+project.name+" - "+"<small>"+project.description+"</small>"+" - "+
+    var item = ("<li>"+project.pic+project.name+" - "+"<small>"+project.description+"</small>"+" - "+
                 project.link+"</li>");
     arr.push(item);
   }
@@ -66,19 +66,19 @@ document.getElementById('nav-contact').addEventListener('click', changeToContact
 var data = [
   {
     "name":"Functions & Flagons",
-    "pic":"ph",
+    "pic":"<img src='assets/imgs/js.jpg'>",
     "description":"JavaScript COYA Game; June 2017",
-    "link":"ph"
+    "link":"<a href='https://github.com/wakaspar/Functions-Flagons'>link</a>"
   },
   {
     "name":"GA Memory Game",
-    "pic":"ph",
+    "pic":"<img src='assets/imgs/memorygame.png'>",
     "description":"GA Fundamentals Memory Game; Jan.2017",
     "link":"<a href='https://github.com/wakaspar/wdi-fundamentals-memorygame/tree/master/starter-code'>link</a>"
   },
   {
     "name":"Empire Inc.",
-    "pic":"ph",
+    "pic":"<img src='assets/imgs/vader.png'>",
     "description":"Star Wars mock-up website; 1/27/17",
     "link":"<a href='https://github.com/wakaspar/Empire-Incorporated'>link</a>"
   }
