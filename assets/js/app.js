@@ -66,19 +66,19 @@ document.getElementById('nav-contact').addEventListener('click', changeToContact
 var data = [
   {
     "name":"Functions & Flagons",
-    "pic":"<img src='assets/imgs/js.jpg'>",
+    "pic":"<img src='assets/imgs/js.jpg' alt='whoops!'>",
     "description":"JavaScript COYA Game; June 2017",
     "link":"<a href='https://github.com/wakaspar/Functions-Flagons'>link</a>"
   },
   {
     "name":"GA Memory Game",
-    "pic":"<img src='assets/imgs/js.jpg'>",
+    "pic":"<img src='assets/imgs/js.jpg' alt='whoops!'>",
     "description":"GA Fundamentals Memory Game; Jan.2017",
     "link":"<a href='https://github.com/wakaspar/wdi-fundamentals-memorygame/tree/master/starter-code'>link</a>"
   },
   {
     "name":"Empire Inc.",
-    "pic":"<img src='assets/imgs/vader.png'>",
+    "pic":"<img src='assets/imgs/vader.png' alt='whoops!'>",
     "description":"Star Wars mock-up website; 1/27/17",
     "link":"<a href='https://github.com/wakaspar/Empire-Incorporated'>link</a>"
   }
