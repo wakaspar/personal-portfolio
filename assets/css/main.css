@@ -1,106 +1,78 @@
-/* Portfolio Project CSS */
 body {
-  background-color: #5a5b5b
+  background: url('diagmonds.png');
+}
+
+small {
+  font-family: 'Arsenal';
 }
 
 nav {
-  background-color: #af7b7b;
-  min-height: 25px;
-  width: 70%;
-  border-radius: 15px;
-  margin: auto;
-  text-align: center;
+  margin-top: 25px;
 }
 
-nav  a {
-  color: #6d1111;
-  font-family: Arial, sans-serif;
-  font-size: 1.5em;
-  font-weight: 550;
-  padding-right: 25px;
-  text-decoration: none;
+footer {
+  border-top: 2px #000000 solid;
+  border-radius: 25px;
+  background: url('dark_embroidery.png');
+  margin-bottom: 25px;
 }
 
-div {
-  padding: 1px 10px;
-  margin: 15px auto;
+li {
+  font-weight: bold;
 }
 
 a {
-  color: #521a77;
+  font-weight: normal;
+  color: lightgreen;
+  text-shadow: 1px 1px #000000;
+}
+
+footer p {
+  font-weight: bolder;
+  margin-top: 15px;
+}
+
+footer img {
+  height: 30px;
 }
 
 h1 {
-    font-family:  Verdana, sans-serif;
-    color: #4286f4;
-    text-align: center;
-    text-shadow: 2px 2px #282828;
-  }
-
-h2 {
-    font-family: Verdana, sans-serif;
-    color: #000000;
-    border-bottom: 1px dotted #000000;
-  }
-
-h3 {
-    color: #FFFFFF;
-  }
-
-p {
-    font-family: Arial, sans-serif;
-    margin: 2px;
-  }
-
-footer {
-    font-size: .75em;
-    font-family: Verdana, sans-serif;
-    color: #000000;
-    text-align: center;
-  }
-
-.content-box {
-    background-color: #8ee28a;
-    height: auto;
-    width: 70%;
-    border-bottom: 3px solid black;
-    border-radius: 10px;
+  color: #ffffff;
+  text-shadow: 2px 2px #000000;
+  font-family: 'Indie Flower', sans-serif;
+  font-size: 45px;
 }
 
-.not-so-hidden {
-  background-color: #FF0000;
-  border: 2px dashed #eeff3d;
+h2, h4, p {
+  color: #000000;
 }
 
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
+#top-bar {
+  display: inline;
 }
 
-img#my-pic {
-  width: 145px;
-  border-radius: 50%;
-  border: 1px dashed #8ee28a;
+.me {
+  width: 75px;
 }
 
-img#indigo-pic {
-  width: 250px;
-  border-radius: 50%;
-  border: 1px dashed #8ee28a;
-  display: block;
-  margin: auto;
+#first-panel, #second-panel {
+  background: url('swirl_pattern.png');
+  background-position: center;
+  border-radius: 25px;
+  max-width: auto;
 }
 
-#hidden-text {
-    color: #FFFFFF;
+.jumbotron {
+  background: url('http://i.imgur.com/OPv1i.jpg');
+  background-position: top;
+  margin: 12px;
+  color: #ffffff;
 }
 
-#hidden-box {
-    background-color: #FF0000;
-    opacity: 0;
-    border: 2px dashed #eeff3d;
-}
+ .my-square-pics {
+   border-radius: 35px;
+   margin: 15px;
+   float: right;
+   height: 165px;
+   width: 165px;
+ }

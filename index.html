@@ -10,67 +10,91 @@
   <!-- mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!-- styles -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Arsenal|Indie+Flower|Lobster"
+        rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   <!-- scripts -->
-  <script type="text/javascript" src="assets/js/app.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+    <!--JS.app originally linked here-->
   <!-- favicon -->
   <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
 </head>
 <body>
-  <div id="page-wrapper">
-    <h1>Will Kaspar
-      <img src="assets/imgs/me.jpg" alt="Get your mouse off of my face!"
-      id="my-pic">
-    </h1>
+
+  <div class="container">
+    <!--NavBar-->
+    <nav class="navbar navbar-inverse">
+            <a class="navbar-brand" href="#">
+              Menu
+            </a>
+            <button id="nav-home" class="btn btn-warning navbar-btn" type="button" name="button">About Me</button> |||||
+            <button id="nav-dev" class="btn btn-info navbar-btn" type="button" name="button">Projects</button> |||||
+            <button id="nav-art" class="btn btn-danger navbar-btn" type="button" name="button">Artwork</button> |||||
+            <button id="nav-agri" class="btn btn-success navbar-btn" type="button" name="button">Agriculture</button> |||||
+            <button id="nav-contact" class="btn btn-primary navbar-btn" type="button" name="button">Contact</button>
+      </nav>
+
+    <div class="container-fluid">
+
+      <!--PageHeader-->
+      <div class="page-header">
+        <img class="img-circle me" src="assets/imgs/me.jpg" alt="me">
+        <h1 id="top-bar">Will Kaspar  <small> developer | artist | gardener | jedi</small></h1>
+      </div>
+
+
+      <!--AboutMeBox
+      <div id="first-panel" class="container-fluid panel col-md-5 col-sm-5 col-xs-11">
+        <div class="panel-heading">
+          <h4>About Me</h4>
+        </div>
+        <hr>
+        <div class="panel-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="centered">
+            <img class=" img-rounded my-square-pics" src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/944917_10103825708406604_6849728783233890624_n.jpg?oh=ce6209f6fbfb336455700823211599cc&oe=591104BB" alt="square pic">
+            <img class=" img-rounded my-square-pics" src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/14702461_10104344211597054_8009363077478876957_n.jpg?oh=3e0a63a27d2dcf1969b1369063714e42&oe=590B0AAD" alt="square pic">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+
+      <div id="second-panel" class="container-fluid panel col-md-5 col-sm-5 col-xs-11">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>-->
+
+      <div class="my-main-panel jumbotron panel">
+        <h1 id="head" class="my-main-header">Welcome!</h1>
+        <p id="text" class="my-main-text">Hi!  My name is Will Kaspar.  I'm currently a Web Development Immersive student at General Assembly in San Francisco, California.
+        Before I was a web dev student, I worked as an organic gardener and an elementary school teacher.  Once I graduate, I'm very interested in working in tech education,
+      non-profit tech, or possibly game development.  Welcome to my website.  Please, feel free to look through my projects at your leisure.  Any questions, comments, or
+      concerns can be resolved through the 'Contact' tab.
+        </p>
+        <hr>
+        <button id="main-btn" class="my-main-button button btn-lg btn-danger" type="button" name="more" role="button" href="https://www.google.com">Learn more.</button>
+      </div>
+
+
+
+    </div>
+    <hr>
+    <!--Footer-->
+    <footer>
+      <div class="container-fluid">
+        <p class="text-center"><img id="ae-sticker" src="assets/imgs/sticker.png" alt="ApeEsc \'totally\' didn\'t steal this picture.">© 2017 .ApeEsc.</p>
+      </div>
+    </footer>
   </div>
-
-  <div class="clearfix">
-    <nav>
-      <ul>
-        <a href="#" class="nav-a">Home</a>
-        <a href="#" class="nav-a">About</a>
-        <a href="#" class="nav-a">Projects</a>
-        <a href="#" class="nav-a">Contact</a>
-      </ul>
-    </nav>
-  </div>
-
-  <div class="content-box">
-    <h2>About Me</h2>
-    <p>My name is Will Kaspar, and I'm currently a
-    Web Development Immersive student at General Assembly in
-    San Francisco, CA.  Once I graduate, I'd love to work with tech
-    in education, as I was formally an elementary school teacher.
-    </p>
-    <br>
-  </div>
-
-  <div class="content-box">
-    <h2>My Projects</h2>
-    <a href="https://github.com/wakaspar/">GitHub</a>
-    <p>More projects to come...</p>
-    <br>
-  </div>
-
-  <div class="content-box">
-    <h2>Contact Me</h2>
-    <a href="https://www.facebook.com/willkaspar">Facebook</a>
-    <p>Hit a brother up!</p>
-    <br>
-  </div>
-
-  <img src="assets/imgs/indi.jpg" alt="Indigo, the Purple Puppy!"
-  id="indigo-pic">
-
-  <div id="hidden-box">
-    <h3>Oh Snap!</h3>
-    <p id="hidden-text">This box was hidden!</p>
-  </div>
-
-  <footer>
-    <p>© 2017 ApeEsc</p>
-  </footer>
-
+<script type="text/javascript" src="assets/js/app.js"></script>
 </body>
+
 </html>
