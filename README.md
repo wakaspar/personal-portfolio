@@ -1,5 +1,5 @@
 
-# ${1:Personal Portfolio}
+# Personal Portfolio
 This is a personal portfolio website for me to showcase my current and past projects.  It will most likely evolve alongside my skill development.
 
 ## Installation
