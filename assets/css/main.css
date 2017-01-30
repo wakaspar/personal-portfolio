@@ -47,12 +47,12 @@ h2, h4, p {
   color: #000000;
 }
 
-#top-bar {
-  display: inline;
-}
-
 .me {
   width: 75px;
+}
+
+#top-bar {
+  display: inline;
 }
 
 #first-panel, #second-panel {

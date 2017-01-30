@@ -9,10 +9,12 @@ var changeToHome = function(){
   Before I was a web dev student, I worked as an organic gardener and an elementary school teacher.  Once I graduate, I'm very interested in working in tech education,
   non-profit tech, or possibly game development.  Welcome to my website.  Please, feel free to look through my projects at your leisure.  Any questions, comments, or
   concerns can be resolved through the 'Contact' tab.`);
+  $("#main-btn").show();
 }
 var changeToWebDev = function(){
   $("#head").text('Web Development');
   $("#text").empty();
+  $("#main-btn").hide();
   $("#text").text('Here are some of my projects from GA\'s WDI class.');
 
   var arr = [];
@@ -39,6 +41,7 @@ var changeToAgri = function(){
 var changeToContact = function(){
   $("#head").text('Reach Out');
   $("#text").empty();
+  $("#main-btn").hide();
   $("#text").text(`Here's all my contact information:`);
   $("#text").append("<li>"+"Email"+" : "+`<a href="#">wakaspar@gmail.com</a>`+"</li>");
   $("#text").append("<li>"+`<a href="https://github.com/wakaspar">GitHub</a>`+"</li>");
@@ -80,6 +83,3 @@ var data = [
     "link":"<a href='https://github.com/wakaspar/Empire-Incorporated'>link</a>"
   }
 ];
-
-
-// Append Data to Website
